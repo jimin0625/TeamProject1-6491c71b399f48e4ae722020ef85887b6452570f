@@ -335,7 +335,7 @@ function CalendarPage() {
                     console.log(newPossibleDates);
                     setPossibleDates(newPossibleDates);
         
-                    const person1 = findVotersForDate(tree.head, date);
+                    const person1 = findVotersForDate(sortedRoot, date);
                     let node = person1;
                     let newParticipants = [];
         
