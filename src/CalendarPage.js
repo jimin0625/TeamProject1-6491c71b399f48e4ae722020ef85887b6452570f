@@ -118,9 +118,9 @@ function search(node, targetDate) {
     }
 
     // 현재 노드의 날짜가 대상 날짜보다 더 뒤에 있는 경우
-    if (new Date(node.date) > new Date(targetDate)) {
+    /*if (new Date(node.date) > new Date(targetDate)) {
         return null;
-    }
+    }*/
 
     // 자식 노드에 대해 재귀적으로 탐색
     return search(node.children, targetDate);
