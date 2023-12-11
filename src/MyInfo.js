@@ -48,10 +48,10 @@ function MyInfo() {
             </div>
           ) : (
             <Link to="/CalendarPage">
-              <button>
+              <button className="custom-info-button">
                 <div className="RoomInfo">
                   <div className="headerTextStyleContainer">
-                    <p className="headerTextStyle">    </p>
+                    <p className="headerTextStyle">Scheduled</p>
                   </div>
                   <div className="infoContainer">
                     <p>{RoomName}</p>
